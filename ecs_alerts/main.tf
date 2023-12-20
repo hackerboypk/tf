@@ -1,7 +1,7 @@
 provider "aws" {
   region     = "us-west-2"
-  access_key = "AKIA2BXZ63WINMFXZCMW"
-  secret_key = "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"
+  access_key = ""
+  secret_key = ""
 }
 module "ecs_task_failure_alert" {
   source  = "../modules/ecs_task_failure_alert"
