@@ -9,3 +9,4 @@ module "ecs_task_failure_alert" {
   alert_rule_name = "ecs-task-failure-alert"
   alert_rule_description = "Sends SNS notifications for failed ECS tasks"
 }
+#checking github action
